@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
       "target": "ES2022",              // Set the JavaScript version that you want to output (for top-level await).
-      "module": "esnext",              // Use ES modules (important for top-level await support).
+      "module": "CommonJS",              // Use ES modules (important for top-level await support).
       "moduleResolution": "node",      // Ensure Node.js-style module resolution (useful for resolving imports).
       "esModuleInterop": true,         // Allow default imports from non-ESM modules.
       "skipLibCheck": true,            // Skip type checking of declaration files to improve performance.
