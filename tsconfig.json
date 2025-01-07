@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+      "target": "ES2022",              // Set the JavaScript version that you want to output (for top-level await).
+      "module": "esnext",              // Use ES modules (important for top-level await support).
+      "moduleResolution": "node",      // Ensure Node.js-style module resolution (useful for resolving imports).
+      "esModuleInterop": true,         // Allow default imports from non-ESM modules.
+      "skipLibCheck": true,            // Skip type checking of declaration files to improve performance.
+      "strict": true,                  // Enable strict type-checking options for better safety.
+      "forceConsistentCasingInFileNames": true, // Ensure consistent casing in file names.
+      "resolveJsonModule": true,       // Allow importing JSON files as modules.
+      "allowSyntheticDefaultImports": true, // Allow synthetic default imports (even if the module doesn't have a default export).
+      "outDir": "./dist",              // Output directory for compiled JavaScript files.
+      "baseUrl": ".",                  // Base directory for resolving non-relative module names.
+      "paths": {
+        "*": ["node_modules/*", "src/*"]  // Define custom module resolution paths if necessary.
+      }
+    },
+    "include": [
+      "src/**/*.ts",  // Include TypeScript files from the src directory.
+      "src/**/*.mts"  // Also include .mts files if you're working with ES Modules.
+    ],
+    "exclude": [
+      "node_modules"  // Exclude node_modules from being compiled.
+    ]
+  }
+  
