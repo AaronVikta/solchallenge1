@@ -1,6 +1,6 @@
 import { Connection, LAMPORTS_PER_SOL, PublicKey } from "@solana/web3.js";
 
-const publickey = new PublicKey("Ge4S6P9a5a16zRqBY353Mem7YY1i25Y4RY7Zte7KLYWv");
+const publickey = new PublicKey("EZNUa7F7HuP7u7Xa4EaQ7XGnSqwqFRGbU3Tdn2o2LNfp");
 
 const connection = new Connection("https://api.devnet.solana.com", "confirmed");
 
